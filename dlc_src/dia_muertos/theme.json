@@ -1,0 +1,18 @@
+{
+  "id": "dia_muertos",
+  "name": "Día de Muertos",
+  "description": "Ofrendas, cempasúchil, papel picado y calaveritas festivas.",
+  "version": 1,
+  "downloadUrl": "https://github.com/hermeslandia/basta-dlc/releases/download/v1.0.0/dia_muertos.zip",
+  "backgroundPath": "images/dia_muertos_bg.png",
+  "rouletteBackgroundPath": "images/dia_muertos_roulette_bg.png",
+  "coverPath": "https://github.com/hermeslandia/basta-dlc/releases/download/v1.0.0/dia_muertos_cover.png",
+  "catrinaCenterPath": "images/dia_muertos_catrina_center.png",
+  "avatarFolder": "avatars",
+  "primaryContainerColor": "0xFF2B0A3D",
+  "titleColor": "0xFFFF9E1B",
+  "textColor": "0xFFFFFFFF",
+  "borderColor": "0xFFFF6F00",
+  "isPremium": false,
+  "price": 0.0
+}

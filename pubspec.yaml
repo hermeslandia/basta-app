@@ -1,0 +1,70 @@
+name: basta
+description: "P2P Basta Game App"
+publish_to: 'none'
+version: 1.0.5+6
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  nsd: ^5.0.1
+  shelf: ^1.4.1
+  shelf_web_socket: ^2.0.1
+  web_socket_channel: ^3.0.1
+  provider: ^6.1.2
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  window_manager: ^0.4.3
+  flutter_fortune_wheel: ^1.2.0
+  shared_preferences: ^2.5.5
+  flutter_svg: ^2.0.10
+  image: ^4.9.1
+  firebase_core: ^4.12.1
+  firebase_database: ^12.4.6
+  audioplayers: ^6.8.1
+  path_provider: ^2.1.6
+  archive: ^4.0.9
+  in_app_purchase: ^3.3.0
+  firebase_storage: ^13.4.5
+  http: ^1.6.0
+  wakelock_plus: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/global/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/global/icon/
+    - assets/global/elements/
+    - assets/global/audio/
+    - assets/global/images/
+    
+    - assets/themes/party/audio/
+    - assets/themes/party/avatars/
+    - assets/themes/party/images/
+    
+    - assets/themes/classic/audio/
+    - assets/themes/classic/avatars/
+    - assets/themes/classic/images/
+    
+    - assets/themes/dia_muertos/audio/
+    - assets/themes/dia_muertos/avatars/
+    - assets/themes/dia_muertos/images/
+    
+    - assets/themes/neon/images/
+    - assets/themes/disney/images/
+    
+    - assets/themes/default/audio/
